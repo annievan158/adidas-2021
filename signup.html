@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>SIGN UP FORM</title>
+</head>
+<body>
+    <form id="form" class="form">
+        <div class="form-wrap">
+            <div class="form-body">
+                <div class="sign-up">
+                    <h1 class="sign-up-tag-name">SIGN UP FOR FREE</h1>
+                    <div class="sign-up-box">
+                        <div class="sign-up-first-row">
+                            <div class="top-row">
+                                <label for="firstname" class=""> <b>First Name</b></label>
+                                <input type="text" placeholder="First Name*" name="firstname" class="form-input" required>
+                                <p id="err-firstname"></p>
+                            </div>
+                            <div class="top-row">
+                                <label for="lastname" class=""> <b>Last Name</b></label>
+                                <input type="text" placeholder="Last Name *" name="lastname" class="form-input" required>
+                                <p id="err-lastname"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="below-row">
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Email*" name="email" class="form-input" required>
+                        <p id="err-email"></p>
+                    </div>
+                    <div class="below-row">
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Password*" name="psw" class="form-input" required>
+                        <p id="err-psw"></p>
+                    </div>
+                    <div class="below-row">
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" placeholder="Repeat Password*" name="psw-repeat" class="form-input" required>
+                        <p id="err-psw-repeat"></p>
+                    </div>
+                    <div class="below-row">
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+            <button type="button" class="form-btn"  >Sign Up</button>
+            <div class="box-success">
+                <div class="box-wrapper">
+                    <i class="fas fa-check" style="font-size: 100px; color: green;"></i>
+                    <div class="heading" style="font-size: 30px; font-weight: 700;"> ĐĂNG KÍ THÀNH CÔNG </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </form>
+    <script src="./signup.js"></script>
+
+</body>
+</html>

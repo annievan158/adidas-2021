@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="root">
+        <form id= "form" class="form">
+            <div class="form-wrap">
+                <div class="form-body">
+                    <div class="login">
+                        <h1 class="login-tag-name">WELCOME BACK</h1>
+                        <div class="below-row">
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Email*" name="email" class="form-input" required>
+                            <p id="err-login-psw"></p>
+                        </div>
+                        <div class="below-row">
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Password*" name="psw" class="form-input" required>
+                            <p id="err-login-psw"></p>
+                        </div>
+                        <p class="forgot"><a href="#">Forgot Password?</a></p>
+    
+                    </div>
+                </div>
+                <button type="button" class="form-btn"> LOG IN 
+                </button>
+            </div>
+            
+        </form>
+    </div>
+    
+    <script src="./login.js"></script>
+</body>
+
+</html>
