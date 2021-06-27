@@ -13,7 +13,7 @@ function currentSlide(n) {
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("body-banner-1");
-    var dots = document.getElementsByClassName("fas fa-circle");
+    var dots = document.getElementsByClassName("dot-banner");
     if (n > slides.length) {slideIndex = 1}    
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
@@ -24,8 +24,8 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block"; 
     console.log(showSlides) 
-    dots[slideIndex-1].className += " active";
-    }
+    dots[slideIndex-1].className += "active";
+}
 // Product slide
 
 const buttonRight = document.getElementById('slideRight');
@@ -75,7 +75,6 @@ function filterFunction() {
     }
   }
 }
-
 
 
 
