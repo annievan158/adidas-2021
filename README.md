@@ -1,7 +1,8 @@
 # ADIDAS PROJECT 
 
 Adidas Project is the graduation project of Kmin class. 
-Link preview: https://adidas2021.herokuapp.com/
+> 
+> Link preview: https://adidas2021.herokuapp.com/
 
 ## Installation
 
